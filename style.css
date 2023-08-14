@@ -1,0 +1,83 @@
+body{
+    background-color: #d3d5d7;
+}
+
+.caixaGeral{
+    height: 380px;
+    width: 470px;
+    padding: 10px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+img{
+    height: 390px;
+    padding 0;
+    margin: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.caixaConteudo{
+    flex-direction: column;
+    height: 370px;
+    width: 470px;
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    padding-left: 20px;
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+h1{
+    font-family: 'Inconsolata', monoespaçado;
+    font-size: 15px;
+    color: #8c8c8c;
+    padding-top: 12px;
+    padding-bottom: 15px;  
+    font-weight: bold;
+    letter-spacing: 5px;  
+}
+
+.tituloInformacao{
+    font-family: 'DM Serif Text', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.detalhesprod{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.4;
+    width: 220px;
+}
+
+.valor{
+    font-family: 'DM Serif Text', serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #26874e;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.valorAnt{
+    font-size: 13px;
+    text-decoration: line-through;
+    color: #8c8c8c;
+}
+
+button{
+    background-color: #006633;
+    height: 40px;
+    width: 200px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+}
